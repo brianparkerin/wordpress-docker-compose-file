@@ -21,15 +21,6 @@ $ docker-compose stop
 $ docker ps 
 $ docker ps -a 
 
-# To Tear Down
-$ docker-compose down --volumes
-
-# To Tear Down
-$ docker-compose down --volumes
-
-# To Tear Down
-$ docker-compose down --volumes
-
 ```
 
 ```
