@@ -1,7 +1,10 @@
+# config Docker Compose Version
 version: '3.9'
 
+# starting up services
 services:
 
+# DB MySQL
   db:
     image: mysql:8.0
     volumes:
@@ -15,6 +18,7 @@ services:
     networks:
       - wpsite
 
+# Php My admin
   phpmyadmin:
     depends_on:
       - db
@@ -27,7 +31,8 @@ services:
       MYSQL_ROOT_PASSWORD: password 
     networks:
       - wpsite
-      
+     
+# Wordpress instalation
   wordpress:
     depends_on:
       - db
