@@ -8,7 +8,7 @@
 # create a docker-compose.yml/yaml file:
 $ touch docker-compose.yaml
 
-# To Run the project :
+# To Run the project:
 $ docker-compose up -d
 
 # To Tear Down:
